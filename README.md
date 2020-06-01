@@ -1,7 +1,6 @@
 # NTP CLOCK
 This example shows you how to get time from NTP server and display it on lcd 16x2 using libraries like: 
-> NTPClient.h
-
+> NTPClient.h 
 > ESP8266WiFi.h
 > WiFiUdp.h
 
