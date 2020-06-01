@@ -52,3 +52,6 @@ e.g.
 > South America	south-america.pool.ntp.org
 
 4. Change your lcd properties in ```LiquidCrystal_I2C lcd(0x27, 16, 2)``` where (address on your i2c converter, length, height); 
+
+
+#:smile::smile::smile::smile:GOOD LUCK:smile::smile::smile::smile:
