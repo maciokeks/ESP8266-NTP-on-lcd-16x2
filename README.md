@@ -1,5 +1,4 @@
-#Installing ESP8266 on arduino IDE
-
+## Installing ESP8266 on arduino IDE
 1.Open your arduino IDE and copy this http://arduino.esp8266.com/stable/package_esp8266com_index.json and paste in file-->preferences-->click small button on right side.
 
 
