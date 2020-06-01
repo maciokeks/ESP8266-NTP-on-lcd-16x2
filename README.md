@@ -3,10 +3,9 @@ This example shows you how to get time from NTP server and display it on lcd 16x
 > NTPClient.h 
 > ESP8266WiFi.h
 > WiFiUdp.h
-
 > Wire.h
-
 > LiquidCrystal_I2C.h
+
 ## Installing ESP8266 on arduino IDE
 1. Open your arduino IDE and copy this http://arduino.esp8266.com/stable/package_esp8266com_index.json and paste in file-->preferences-->click small button on right side.
 
