@@ -1,4 +1,5 @@
-	NTP servers
+NTP servers
+
 Area	HostName
 Worldwide	pool.ntp.org
 Asia	asia.pool.ntp.org
@@ -7,7 +8,8 @@ North America	north-america.pool.ntp.org
 Oceania	oceania.pool.ntp.org
 South America	south-america.pool.ntp.org
 
-	Calculate your utcOffsetInSeconds
+Calculate your utcOffsetInSeconds
+
 For UTC -5.00 : -5 * 60 * 60 : -18000
 For UTC +1.00 : 1 * 60 * 60 : 3600
 For UTC +0.00 : 0 * 60 * 60 : 0
