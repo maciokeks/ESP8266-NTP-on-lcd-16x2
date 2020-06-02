@@ -26,11 +26,17 @@ This example shows you how to get time from NTP server and display it on lcd 16x
 To solder you need:
 1. solder iron
 2. some tin
+
 You need to solder 4 wires to your ESP8266. Look on your i2c converter connected to lcd and there is GND, Vcc, SDA, SCL. Solder this pin using 4 wires like this:
+
 > SDA---D2 or GPIO4
+
 > SCL---D1 or GPIO5
+
 > GND---GND
+
 > Vcc---5V or 3.3V
+
 ![alt text](https://github.com/maciokeks/ESP8266-NTP-on-lcd-16x2/blob/master/additional%20photos/solder.PNG)
 
 ## Prepare your code for run
