@@ -21,6 +21,18 @@ This example shows you how to get time from NTP server and display it on lcd 16x
 
 3. When you are done with installing you can select your board and you are ready to upload your code 👍
 ![alt text](https://github.com/maciokeks/ESP8266-NTP-on-lcd-16x2/blob/master/additional%20photos/board%20manager.png)
+
+## Solder your lcd and ESP8266
+To solder you need:
+1. solder iron
+2. some tin
+You need to solder 4 wires to your ESP8266. Look on your i2c converter connected to lcd and there is GND, Vcc, SDA, SCL. Solder this pin using 4 wires like this:
+> SDA---D2 or GPIO4
+> SCL---D1 or GPIO5
+> GND---GND
+> Vcc---5V or 3.3V
+![alt text](https://github.com/maciokeks/ESP8266-NTP-on-lcd-16x2/blob/master/additional%20photos/solder.PNG)
+
 ## Prepare your code for run
 1. Write your network credentials to this field:
 ```
@@ -29,11 +41,11 @@ const char *password = "xx";
 ```
 2. Adjust your time zone UTC offset in this line of code `const long utcOffsetInSeconds = 7200;`, remember about summer and winter time
 e.g. 
->For UTC -5.00 : -5 * 60 * 60 : -18000
+> For UTC -5.00 : -5 * 60 * 60 : -18000
 
->For UTC +1.00 : 1 * 60 * 60 : 3600
+> For UTC +1.00 : 1 * 60 * 60 : 3600
 
->For UTC +0.00 : 0 * 60 * 60 : 0
+> For UTC +0.00 : 0 * 60 * 60 : 0
 
 ![alt text](https://github.com/maciokeks/ESP8266-NTP-on-lcd-16x2/blob/master/additional%20photos/Timezones2008_UTC-5.png)
 
