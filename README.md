@@ -1,4 +1,4 @@
-# NTP CLOCK
+<h2 align="center">NTP CLOCK</h2>
 This example shows you how to get time from NTP server and display it on lcd 16x2 using libraries like: 
 
 >NTPClient.h - **this library being used for get time from NTP servers**
