@@ -67,4 +67,5 @@ e.g.
 
 4. Change your lcd properties in ```LiquidCrystal_I2C lcd(0x27, 16, 2)``` where (address on your i2c converter, length, height); 
 
-# GOOD LUCK :smile::+1::smile::+1:
+<h2 align="center"># GOOD LUCK :smile::+1::smile::+1:</h2>
+
