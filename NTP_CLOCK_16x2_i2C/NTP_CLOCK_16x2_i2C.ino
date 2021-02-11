@@ -17,8 +17,7 @@ const char *ssid     = "";//enter your network credentials
 const char *password = "";
 
 const long utcOffsetInSeconds = 7200;//adjust  UTC offset  for your timezone in milliseconds, timezones pictures are in this ZIP file, remember about summer or winter time 
-char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};//days of week, you can change this for your language :), [7]-days in the week, [12]-number of months in year
-WiFiUDP ntpUDP;//UDP transmition
+char daysOfTheWeek[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};//days of week, you can change this for your language :), [7]-days in the week
 NTPClient timeClient(ntpUDP, "europe.pool.ntp.org", utcOffsetInSeconds);//enter proper NTP server for your location
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);//enter your lcd size (address on your i2c converter, length, height);
